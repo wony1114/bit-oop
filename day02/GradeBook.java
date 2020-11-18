@@ -6,6 +6,8 @@ public class GradeBook {
 	int korean;
 	int english;
 	int math;
+	int sum;
+	double average;
 	
 	int getId() {
 		return id;
@@ -41,4 +43,17 @@ public class GradeBook {
 	void setMath(int math) {
 		this.math = math;
 	}
+	public int getSum() {
+		return sum;
+	}
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
+	public double getAverage() {
+		return average;
+	}
+	public void setAverage(double average) {
+		this.average = average;
+	}
+	
 }
