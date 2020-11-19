@@ -25,5 +25,5 @@ public interface UserService {
 	public String listofMembers(UserDTO user);
 	public String idSearch(UserDTO user);
 	public String nameSearch(UserDTO user);
-	public String totalMembersip(UserDTO user);
+	public int totalMembersip(UserDTO user);
 }

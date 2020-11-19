@@ -57,9 +57,11 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public String totalMembersip(UserDTO user) {
+	public int totalMembersip(UserDTO user) {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
+
+
 
 }
